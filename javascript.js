@@ -42,7 +42,7 @@ function copiarAreaTransferencia() {
     document.querySelector('#copiar').textContent = 'Copiado'
 
     let divimgf = document.getElementById('imagem1')
-    divimgf.innerHTML = `<img src="/imagens_desk01/imagem-01.svg" alt="Imagem_menino_Lupa" />
+    divimgf.innerHTML = `<img src="/imagensdesk01/imagem01.svg" alt="Imagem_menino_Lupa" />
     <h1>Nenhuma Mensagem Encontrada</h1>
     <p>
      Copiado com sucesso !!!<br />
