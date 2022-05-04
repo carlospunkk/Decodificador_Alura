@@ -8,31 +8,34 @@
     <title>Decodificador</title>
   </head>
   <body>
-    <container class="lupa">
-      <div id="imagem1">
-        <img src="imagensdesk01/imagem01.svg" alt="Imagem_menino_Lupa" />
-        <h1>Nenhuma Mensagem Encontrada</h1>
-        <p>
-          Digite um texto que você deseja<br />
-          criptografar e descriptografar.
-        </p>
-      </div>
-      <textarea id="text-area-vazia" cols="30" rows="10"> </textarea>
-      <div id="bt-copia">
-        <button id="copiar">Copiar</button>
-      </div>
-    </container>
-
     <div id="logo">
       <img src="imagensdesk01/Logo.png" alt="logo_Alura" />
     </div>
-    <textarea
-      id="text-area"
-      cols="30"
-      rows="10"
-      placeholder="Digite seu Texto aqui"
-    ></textarea>
 
+    <section class="entrada-dados">
+      <textarea
+        id="text-area"
+        cols="30"
+        rows="10"
+        placeholder="Digite seu Texto aqui"
+      ></textarea>
+
+      <container class="lupa">
+        <div id="imagem1">
+          <img src="imagensdesk01/imagem01.svg" alt="Imagem_menino_Lupa" />
+          <h1>Nenhuma Mensagem Encontrada</h1>
+          <p>
+            Digite um texto que você deseja<br />
+            criptografar e descriptografar.
+          </p>
+        </div>
+
+        <textarea id="text-area-vazia" cols="30" rows="10"> </textarea>
+        <div id="bt-copia">
+          <button id="copiar">Copiar</button>
+        </div>
+      </container>
+    </section>
     <div class="imagem_alerta">
       <img
         id="imgfundo"
@@ -42,11 +45,11 @@
       />
       <div id="texto_alerta">apenas letras minúsculas e sem acentos</div>
     </div>
-
     <div class="botoes">
       <button id="criptografar">Criptografar</button>
       <button id="descriptografar">Descriptografar</button>
     </div>
+
     <footer>
       <p>Copyright &copy; 2022 - by Carlos Rômulo Encriptador Alura</p>
       <p>
