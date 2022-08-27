@@ -69,3 +69,4 @@ text_area.value = ''
 // botao copiar
 var btcopi = document.querySelector('#copiar')
 btcopi.onclick = copiarAreaTransferencia
+
